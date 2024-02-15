@@ -11,7 +11,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--offwhite);
     background-color: var(--black);
-    background-image: url("../src/images/ramen-background2.jpeg");
+    background-image: url("../src/images/ramen-background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
