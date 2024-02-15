@@ -8,7 +8,7 @@ const intro = () => {
     const quote = document.createElement("p");
     const address = document.createElement("p");
 
-    intro.setAttribute("id", "intro");
+    intro.setAttribute("id", "home");
 
     title.textContent = "Kyle\'s Ramen";
     quote.textContent = "\“In Japan, our favorite thing to do after drinking all night is to go to the ramen place at two or three in the morning\”"

@@ -3,8 +3,9 @@ console.log("Hello Webpack");
 console.log("Hello from index.js")
 
 // Import website pages
-import intro from './home/home';
+import home from './home/home';
 import about from './about/about';
+import menu from './menu/menu';
 
 // select content container
 const content = document.querySelector("#content");
@@ -26,12 +27,12 @@ function removeAllChildNodes(parent) {
 // button event listeners
 homeButton.addEventListener("click", (event) => {
     removeAllChildNodes(content);
-    intro();
+    home();
 });
 
 menuButton.addEventListener("click", (event) => {
-    alert("Test menu")
     removeAllChildNodes(content);
+    menu();
 });
 
 aboutButton.addEventListener("click", (event) => {
@@ -42,4 +43,4 @@ aboutButton.addEventListener("click", (event) => {
 
 // run on start
 
-intro(content);
+home(content);
