@@ -1,5 +1,3 @@
-console.log("Hello from home.js");
-
 const intro = () => {
     const content = document.querySelector("#content");
 

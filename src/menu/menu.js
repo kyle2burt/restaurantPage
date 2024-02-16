@@ -1,3 +1,7 @@
+import icon1 from "./images/ramen.png"
+import icon2 from "./images/ramen2.png"
+import icon3 from "./images/ramen3.png"
+
 const menu = () => {
     const content = document.querySelector("#content");
 
@@ -9,9 +13,9 @@ const menu = () => {
     title.textContent = "Menu";
 
     menu.appendChild(title);
-    menu.appendChild(createMenuItem("Tonkotsu", "Tonkotsu is a viscous, creamy, and complex ramen made from simmered pork bones. The bones break down and release collagen while cooking, meaning that tonkotsu can be so thick that it coats the back of a spoon.", "../src/menu/images/ramen.webp"));
-    menu.appendChild(createMenuItem("Miso", "As its name suggests, miso ramen is flavored with the fermented soybean paste of the same name, which can be made from soybeans, rice, or miso, and colored white or red.", "../src/menu/images/ramen2.png"));
-    menu.appendChild(createMenuItem("Shoyu", "Shoyu is the Japanese word for soy sauce and this lighter-style ramen­­ — which can appear clear-brown or darker and cloudy — is flavored with exactly that.", "../src/menu/images/ramen3.png"));
+    menu.appendChild(createMenuItem("Tonkotsu", "Tonkotsu is a viscous, creamy, and complex ramen made from simmered pork bones. The bones break down and release collagen while cooking, meaning that tonkotsu can be so thick that it coats the back of a spoon.", icon1));
+    menu.appendChild(createMenuItem("Miso", "As its name suggests, miso ramen is flavored with the fermented soybean paste of the same name, which can be made from soybeans, rice, or miso, and colored white or red.", icon2));
+    menu.appendChild(createMenuItem("Shoyu", "Shoyu is the Japanese word for soy sauce and this lighter-style ramen­­ — which can appear clear-brown or darker and cloudy — is flavored with exactly that.", icon3));
 
     content.appendChild(menu);
 }

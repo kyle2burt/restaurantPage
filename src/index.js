@@ -1,6 +1,4 @@
-console.log("Hello Webpack");
-
-console.log("Hello from index.js")
+import './styles.css';
 
 // Import website pages
 import home from './home/home';
