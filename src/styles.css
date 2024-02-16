@@ -5,9 +5,7 @@
     --offwhite: #F3FCF3;
 }
 body {
-    height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: "Roboto", sans-serif;
     color: var(--offwhite);
     background-color: var(--black);
@@ -15,6 +13,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 nav {
     display: flex;
